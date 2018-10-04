@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Local Fire Danger Meter NSW</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.3/svg.js"></script>
+<script src="svg.filter.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="style/fontStyle.css" type="text/css" charset="utf-8" />
+</head>
+<body>
+<div id="wrapper" style="width:500px; margin:10px auto;">
+<div id="heading01" style="font-size:1.2em; text-align:center; font-family:'open_sansextrabold', Arial, sans-serif;">
+<br /><br />
+</div>
+    
+<div id="svgContainer">
+    <svg id="Meter" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="414.5px"
+	 height="258.165px" viewBox="0 0 414.5 258.165" style="width:500px; margin:auto; enable-background:new 0 0 414.5 258.165;" xml:space="preserve">
+
+<g id="Outline">
+	<g>
+		<path style="fill:#888888; stroke:#FFFFFF; stroke-width:10;" d="M402.15,202.5c-36.986,0-89.638-0.067-156.492-0.067c-89.089,0-182.477,0.04-232.713,0.067
+			l-1.445,0.001V201.5c0-48.943,21.459-98.314,58.488-135.455c38.121-38.236,87.699-59.293,139.4-59.293
+			c51.485,0,100.493,21.061,137.578,59.303C382.749,102.954,403.5,152.321,403.5,201.5v1H402.15z"/>
+		<path style="fill:#DDDDDD;" d="M209.5,7.752c107.478,0,192.651,92.748,192.651,193.748c-41.348-0.049-98.009-0.067-156.507-0.067
+			c-89.089,0-182.463,0.04-232.7,0.067C12.944,100.5,102.023,7.752,209.5,7.752 M209.5,5.752c-26.387,0-52.245,5.463-76.855,16.238
+			c-23.461,10.271-44.705,24.856-63.143,43.349C51.246,83.65,36.627,104.67,26.488,127.815C16.026,151.697,10.5,176.489,10.5,201.5
+			v2h2.445c37.658,0,135.716-0.066,232.699-0.066c66.85,0,119.68,0.022,156.68,0.066l2.176,0.002V201.5
+			c0-25.066-5.27-49.849-15.32-73.66c-9.791-23.201-23.821-44.223-41.527-62.481c-17.961-18.522-38.8-33.112-61.852-43.364
+			C261.567,11.217,235.867,5.752,209.5,5.752L209.5,5.752z"/>
+	</g>
+                    <rect x="12.5" y="203.5" style="fill:#FFFFFF;stroke:#CCCCCC;stroke-width:4;stroke-miterlimit:10;" width="390" height="47"/>
+        <g clip-path="url(#clip1)">                
+        <text id="msg" transform="matrix(0.8 0 0 1 23.5 237.417)" style="fill:#FF0000; font-family:'open_sansextrabold', Arial, sans-serif; font-size:30;">LOADING.............</text>
+                    <clipPath id="clip1">
+                    <rect x="22.5" y="203.5" width="370" height="47"></rect>
+                    </clipPath>
+        </g>
+
+</g>
+<g id="CATASTROPHIC" class="segment">
+	<g>
+		<pattern  x="5.5" y="1.5" width="72" height="72" patternUnits="userSpaceOnUse" id="_x31_0_lpi_30_x25_" viewBox="20 -72 72 72" style="overflow:visible;">
+        <g>
+            <polygon style="fill:none;" points="20,0 20,-72 92,-72 92,0 		"/>
+            <line style="fill:none;stroke:#231F20;stroke-width:2.16;" x1="19.75" y1="-3.601" x2="92.25" y2="-3.601"/>
+            <line style="fill:none;stroke:#231F20;stroke-width:2.16;" x1="19.75" y1="-18" x2="92.25" y2="-18"/>
+            <line style="fill:none;stroke:#231F20;stroke-width:2.16;" x1="19.75" y1="-32.4" x2="92.25" y2="-32.4"/>
+            <line style="fill:none;stroke:#231F20;stroke-width:2.16;" x1="19.75" y1="-46.8" x2="92.25" y2="-46.8"/>
+            <line style="fill:none;stroke:#231F20;stroke-width:2.16;" x1="19.75" y1="-61.2" x2="92.25" y2="-61.2"/>
+            <line style="fill:none;stroke:#231F20;stroke-width:2.16;" x1="0" y1="-61.2" x2="14" y2="-61.2"/>
+            <line style="fill:none;stroke:#231F20;stroke-width:2.16;" x1="19.75" y1="-10.8" x2="92.25" y2="-10.8"/>
+            <line style="fill:none;stroke:#231F20;stroke-width:2.16;" x1="19.75" y1="-25.2" x2="92.25" y2="-25.2"/>
+            <line style="fill:none;stroke:#231F20;stroke-width:2.16;" x1="19.75" y1="-39.601" x2="92.25" y2="-39.601"/>
+            <line style="fill:none;stroke:#231F20;stroke-width:2.16;" x1="19.75" y1="-54" x2="92.25" y2="-54"/>
+            <line style="fill:none;stroke:#231F20;stroke-width:2.16;" x1="19.75" y1="-68.4" x2="92.25" y2="-68.4"/>
+            <line style="fill:none;stroke:#231F20;stroke-width:2.16;" x1="0" y1="-68.4" x2="14" y2="-68.4"/>
+        </g>
+        </pattern>
+        <path style="fill:#ED2103;" d="M402.165,200.5c-55.15-0.001-169.421-0.102-191.087-0.122l161.599-97.817
+			C376.633,108.785,401.833,150.406,402.165,200.5z"/>
+		<path style="fill:#FFFFFF;" d="M372.354,103.926c5.173,8.328,28.167,47.991,28.801,95.574c-52.947-0.002-158.173-0.093-186.499-0.119L372.354,103.926
+			 M372.989,101.203L207.5,201.375c0,0,134.667,0.125,195.668,0.125C403.168,146,372.989,101.203,372.989,101.203L372.989,101.203z"
+			/>
+		
+        <pattern  id="SVGID_1_" xlink:href="#_x31_0_lpi_30_x25_" patternTransform="matrix(0.9848 -0.1736 0.1736 0.9848 1210.6719 -1479.374)">
+		</pattern>
+		<path style="fill:url(#SVGID_1_);" d="M207.5,201.375l165.489-100.172c0,0,30.179,44.796,30.179,100.297
+			C342.167,201.5,207.5,201.375,207.5,201.375z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 265.0195 187.8213)" style="fill:#FFFFFF; font-family:'open_sansextrabold', Arial, sans-serif; font-size:17;">CATASTROPHIC</text>
+</g>
+<g id="EXTREME" class="segment">
+	<g>
+		<path style="fill:#ED2103;" d="M305.707,35.778c6.032,3.592,42.788,26.534,65.917,65.087
+			c-47.354,28.971-54.541,33.302-137.112,83.063L210.35,198.49L305.707,35.778z"/>
+		<path style="fill:#FFFFFF;" d="M306.059,37.157c7.938,4.836,42.066,27.022,64.195,63.375c-46.592,28.503-54.188,33.082-136.267,82.545L213.2,195.605
+			L306.059,37.157 M305.35,34.411L207.5,201.375c110.329-66.494,112.562-67.791,165.489-100.172
+			C347.472,58.043,305.35,34.411,305.35,34.411L305.35,34.411z"/>
+	</g>
+	
+		<text transform="matrix(1 0 0 1 283.0352 101.2031)" style="font-family:'open_sansextrabold', Arial, sans-serif; font-size:17;">EXTREME</text>
+</g>
+<g id="SEVERE" class="segment">
+	<g>
+		<path style="fill:#FF931E;" d="M208.501,8.792c0.712-0.026,1.817-0.053,3.266-0.053c11.516,0,52.012,1.888,92.221,26.018
+			c-19.165,32.64-28.787,49.098-49.655,84.788c-11.019,18.845-25.234,43.159-45.702,78.145L208.501,8.792z"/>
+		<path style="fill:#FFFFFF;" d="M211.769,9.739c11.369,0,51.146,1.849,90.854,25.368c-18.831,32.073-28.463,48.547-49.145,83.918
+			c-10.684,18.271-24.371,41.681-43.85,74.979L209.501,9.763C210.117,9.749,210.876,9.739,211.769,9.739L211.769,9.739
+			 M211.767,7.739c-2.754,0-4.267,0.098-4.267,0.098l0.133,193.539C269.392,95.81,275.457,85.32,305.35,34.411
+			C265.019,9.891,224.69,7.738,211.767,7.739L211.767,7.739z"/>
+	</g>
+	
+		<text transform="matrix(1 0 0 1 220.5918 55.4634)" style="font-family:'open_sansextrabold', Arial, sans-serif; font-size:17;">SEVERE</text>
+</g>
+<g id="LOW MODERATE" class="segment">
+	<g>
+		<path style="fill:#21AD49;" d="M96.987,200.845c-36.955,0-65.2-0.153-83.984-0.454c0.309-51.044,24.473-88.975,28.327-94.698
+			l162.509,94.829C190.613,200.597,143.603,200.845,96.987,200.845z"/>
+		<path style="fill:#FFFFFF;" d="M41.638,107.031l158.538,92.511c-16.833,0.092-60.178,0.303-103.189,0.303c-36.302,0-64.2-0.147-82.975-0.438
+			c0.341-28.03,7.918-51.776,14.297-66.896C33.827,119.434,39.403,110.428,41.638,107.031 M41.032,104.361
+			c0,0-29.032,40.347-29.032,97.014c21.478,0.356,53.261,0.47,84.987,0.47c55.343,0,110.513-0.345,110.513-0.345L41.032,104.361
+			L41.032,104.361z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 33.9312 168.7192)"><tspan x="0" y="0" style="font-family:'open_sansextrabold', Arial, sans-serif; font-size:16;">  LOW</tspan><tspan x="0" y="16.8" style="font-family:'open_sansextrabold', Arial, sans-serif; font-size:16;">MODERATE</tspan></text>
+</g>
+<g id="HIGH" class="segment">
+	<g>
+		<path style="fill:#3FA9F5;" d="M42.41,104.007c3.897-6.388,29.8-46.948,71.743-69.338l1.017,1.907
+			c25.617,48.027,26.335,49.374,89.657,162.083L42.41,104.007z"/>
+		<path style="fill:#FFFFFF;"  d="M113.743,36.026l0.545,1.021c25.376,47.576,26.332,49.368,87.868,158.899L43.799,103.659
+			C49.055,95.233,74.084,57.553,113.743,36.026 M114.566,33.319c-46.729,24.529-73.535,71.042-73.535,71.042L207.5,201.375
+			C141.177,83.326,141.978,84.708,114.566,33.319L114.566,33.319z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 78.1421 97.8882)" style="font-family:'open_sansextrabold', Arial, sans-serif; font-size:18;">HIGH</text>
+</g>
+<g id="VERY HIGH" class="segment">
+	<g>
+		<path style="fill:#FFD900;" d="M206.5,197.544c-10.398-18.559-19.081-34.036-26.496-47.252
+			c-33.92-60.46-41.149-73.346-64.118-116.62C154.139,9.892,200.13,8.857,206.5,8.832V197.544z"/>
+		<path style="fill:#FFFFFF;" d="M205.5,9.5v184.213c-9.574-17.085-17.659-31.497-24.624-43.912c-33.698-60.065-41.048-73.166-63.667-115.77
+			c36.262-22.184,79.203-24.22,88.291-24.361 M206.762,7.832c-6.402,0-53.215,0.867-92.195,25.488
+			c28.739,54.155,33.335,61.667,92.934,168.056V7.836C207.5,7.836,207.246,7.832,206.762,7.832L206.762,7.832z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 145.4878 46.4053)"><tspan x="0" y="0" style="font-family:'open_sansextrabold', Arial, sans-serif; font-size:17;">VERY</tspan><tspan x="0" y="19.2" style="font-family:'open_sansextrabold', Arial, sans-serif; font-size:17;"> HIGH</tspan></text>
+</g>
+
+</svg>
+</div></div>
+<script>
+    //www.rfs.nsw.gov.au/feeds/fdrToban.xml is the underlying data
+    //find your region in the Name tags and change it below to your region
+    //var region="Greater Sydney Region"; 
+    var region=getParameterByName('region');
+    var found="";
+    //reload the page just after midnight NSW local time
+    if (region==null){alert("Specify a region in the URL by typing\n?region=REGION_NAME\nafter the .htm in the url in the address bar.\nFind out your region from from your local fire control centre.");}
+    else {
+    $.getJSON('getFDRDataAsJSON.php', function(data,status) { 
+	console.log(status);//used for diagnosing failure to load
+        $.each(data.District, function(index, value){
+        //heading
+        if (value.Name==region){
+        found="yes";
+        var str=value.Name+"<br />";
+        var weekday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        var month=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"];
+        var today=new Date();
+        var thisMonth=month[today.getMonth()];
+        var thisDay=weekday[today.getDay()];
+        str+=thisDay+" "+today.getDate()+" "+thisMonth+" "+today.getFullYear();
+        document.getElementById("heading01").innerHTML=str;
+        var svg=SVG('Meter');
+        svg.each(function(i, children) {
+        if(this.attr('id')!=value.DangerLevelToday && this.attr('class')=="segment"){
+        this.opacity(0.15);
+        this.node.children[1].innerHTML="";
+        }
+        });
+            var shape=SVG.get(value.DangerLevelToday);
+            var outline=shape.node.children["0"].children["1"];
+            outline.style.stroke="#FFFFFF";
+            outline.style.strokeWidth="2";
+            shape.filter(function(add) {
+                var blur = add.offset(-5, 5).in(add.sourceAlpha).gaussianBlur(5)
+                add.blend(add.source, blur)
+                this.size('200%','200%').move('-50%', '-50%')
+            });    
+                
+                var msgDefault="NO FIRES WITHOUT A PERMIT - CALL YOUR LOCAL FIRE CONTROL CENTRE";
+                if (this.FireBanToday!="Yes") {
+                var msgBox=SVG.get('msg');
+                    msgBox.node.innerHTML=msgDefault;
+                    //scroll the msg
+                    var len=msgBox.length();
+                    msgBox.attr({x:500})
+                    msgBox.animate(10000).attr({x: -len}).loop();
+                }
+                else {
+                    var msgBox=SVG.get('msg');
+                    msgBox.node.innerHTML="TOTAL FIRE BAN - NO FIRES"
+                    //centre the msg
+                    msgBox.attr({x: 230});
+                    msgBox.font({anchor: 'middle'});
+                    
+                }
+                    
+        }
+        
+    });
+    if (found!="yes"){alert("Region not found.\nFind out your region from from your local fire control centre.\nCheck the spelling of the region parameter in the address bar.\nMake sure any spaces are replaced by '%20'");}    
+});
+    }//end of else
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+    
+function refreshAt(hours, minutes, seconds) {
+    var now = new Date();
+    var then = new Date();
+
+    if(now.getHours() > hours ||
+       (now.getHours() == hours && now.getMinutes() > minutes) ||
+        now.getHours() == hours && now.getMinutes() == minutes && now.getSeconds() >= seconds) {
+        then.setDate(now.getDate() + 1);
+    }
+    then.setHours(hours);
+    then.setMinutes(minutes);
+    then.setSeconds(seconds);
+
+    var timeout = (then.getTime() - now.getTime());
+    setTimeout(function() { window.location.reload(true);}, timeout);
+}
+
+    //refresh the page each early morning
+    refreshAt(03,01,00);
+    console.log(Date());
+    </script>
+
+</body>
+    
+</html>
